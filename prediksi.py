@@ -12,6 +12,7 @@ def prediksi():
     return pd.read_csv("churn.csv")
 
 df = prediksi()
+st.dataframe(df)
 
 # Preprocessing sederhana (bisa disesuaikan)
 # Drop kolom yang tidak berguna jika ada
